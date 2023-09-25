@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Nicole's Website</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="icon" type="image/x-icon" href="https://cdn.glitch.global/b2c51c65-0f8d-49f8-819d-c537e99c2747/laptop-emoji.png?v=1695326710369" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  </head>
+
+  <body>
+    <main class="container">
+      
+        <div class="pic">
+            <img src="https://cdn.glitch.global/b2c51c65-0f8d-49f8-819d-c537e99c2747/profilepic.JPG?v=1695332321766" alt="Profile Picture">
+        </div>
+        <div class="namebio">
+            <h1 class="name">Nicole Giron</h1>
+            <p class="bio">Engaged and inquisitive aspiring software engineer with seven years of coding and computer experience focused on finding a great internship opportunity. I am a diverse female candidate that is passionate about complex problem-solving and the challenge of testing my knowledge. I am eager to find the right opportunity to apply my skills and deliver results.</p>
+        </div>
+
+      <ul class="links">
+        <li><a href="https://sites.psu.edu/nicolegiron1/" target="_blank">👩🏽‍💻 Blog</a></li>
+        <li><a href="https://github.com/nicolegiron" target="_blank">💻 Github</a></li>
+        <li><a href="https://www.linkedin.com/in/nicole-giron/" target="_blank">👩🏽‍💼 LinkedIn</a></li>
+      </ul>
+      
+        <section class="card1">
+          <img src="https://cdn.glitch.global/b2c51c65-0f8d-49f8-819d-c537e99c2747/gameapp.png?v=1695603747110" alt="War Card Game"/>
+          <h2 class="captionTitle">War Card Game App</h2>
+          <p class="cardinfo">Crafted using Xcode, this iOS app offers a streamlined experience on a single page. Upon pressing the 'deal' button, the app reveals two cards—one for the player and one for the computer. The higher card takes the win, and points are tallied accordingly. It's a straightforward and engaging card game experience.</p>
+        </section>
+        
+          <section class="card2">
+          <img  src="https://cdn.glitch.global/b2c51c65-0f8d-49f8-819d-c537e99c2747/guidebook.png?v=1695611088886" alt="Guidebook App"/>
+          <h2 class="captionTitle"><a href="#">Guidebook App</a></h2>
+          <p class="cardinfo">This guidebook app serves as your digital companion for multiple cities, offering insightful descriptions to help you explore. Simply select a city, and you'll be presented with a list of potential landmarks waiting to be discovered. Dive deeper into each landmark's story by tapping on your chosen destination, where you'll find detailed descriptions and enriching information to enhance your journey.</p>
+        </section>
+
+    
+      
+    </main>
+    <!-- End grid container -->
+    
+    <footer>© Nicole Giron, <span id="current-year"></span></footer>
+    
+    
+
+
+    <!-- Includes the Glitch button in the corner to show what the webpage is about and to make it easier for folks to view source and remix -->
+    <div
+      class="glitchButton"
+      style="position: fixed; top: 20px; right: 20px"
+    ></div>
+    <script src="https://button.glitch.me/button.js"></script>
+    
+        <!-- The following bit of Javascript checks the current year and pastes it into the <span> element inside the footer -->
+    <script>
+      let copyright = document.getElementById("current-year");
+      let year = new Date().getFullYear()
+      copyright.innerHTML = year;
+    </script>
+    
+  </body>
+</html>
